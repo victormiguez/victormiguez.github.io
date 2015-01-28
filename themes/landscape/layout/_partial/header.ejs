@@ -2,7 +2,7 @@
   <div id="banner"></div>
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
-      <img src="img/avatar.jpg" width="150" class="avatar">
+      <img src="/img/avatar.jpg" width="150" class="avatar">
       <h1 id="logo-wrap">
         <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
       </h1>
@@ -20,10 +20,9 @@
         <% } %>
       </nav>
       <nav id="sub-nav">
-        <% if (theme.rss){ %>
-          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
-        <% } %>
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a href="https://github.com/victormiguez" target="_blank" class="nav-icon nav-github-link" title="Github"></a>
+        <a href="https://twitter.com/_vmiguez" target="_blank" class="nav-icon nav-twitter-link" title="Twitter"></a>
+        <a href="https://www.facebook.com/victor.miguez.96" target="_blank" class="nav-icon nav-facebook-link" title="Facebook"></a>
       </nav>
       <div id="search-form-wrap">
         <%- search_form({button: '&#xF002;'}) %>

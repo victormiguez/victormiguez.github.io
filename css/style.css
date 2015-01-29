@@ -418,11 +418,14 @@ body {
   float: right;
   margin-right: -15px;
 }
-#nav-rss-link:before {
-  content: "\f09e";
+.nav-github-link:before {
+  content: "\f113";
 }
-#nav-search-btn:before {
-  content: "\f002";
+.nav-twitter-link:before {
+  content: "\f099";
+}
+.nav-facebook-link:before {
+  content: "\f09a";
 }
 #search-form-wrap {
   position: absolute;
@@ -659,8 +662,6 @@ a.article-title:hover {
   display: inline-block;
   line-height: 1em;
   padding: 6px 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
   background: #fff;
   color: #999;
   text-shadow: 0 1px #fff;
